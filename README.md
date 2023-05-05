@@ -1,2 +1,2 @@
 # Crypto_Network_Security
-Assignment 1
+Group Assignment 1
