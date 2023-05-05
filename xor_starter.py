@@ -1,3 +1,5 @@
+#XOR starter
+
 from pwn import xor
 
 input_string = "label"

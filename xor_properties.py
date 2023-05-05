@@ -1,3 +1,5 @@
+#XOR Properties
+
 def xor_hex_strings(a, b):
     return hex(int(a, 16) ^ int(b, 16))[2:]
 
@@ -20,3 +22,5 @@ FLAG = xor_hex_strings(FLAG, KEY3)
 # Convert FLAG from hex to ASCII
 flag_ascii = bytes.fromhex(FLAG).decode('utf-8')
 print(flag_ascii)
+
+

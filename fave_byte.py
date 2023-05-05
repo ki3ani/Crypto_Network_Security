@@ -1,3 +1,5 @@
+#Favourite Byte
+
 def xor_single_byte_key(hex_data, key):
     decoded_data = bytes.fromhex(hex_data)
     result = ''.join(chr(byte ^ key) for byte in decoded_data)
